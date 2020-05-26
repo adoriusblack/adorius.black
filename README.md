@@ -5,5 +5,4 @@ Welcome to the Adorius BlackFun Acc Maker/Wiki.
 3.) Project is open source for now.
 4.) Visit Project webpage https://adorius.black/
 
-Quick Look:
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=_3ja2nXeDFk&feature=youtu.be)
+![images](adorius.black.png)
