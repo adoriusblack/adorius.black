@@ -6,4 +6,4 @@ Welcome to the Adorius BlackFun Acc Maker/Wiki.
 4.) Visit Project webpage https://adorius.black/
 
 Quick Look:
-![Acc Maker](https://github.com/adoriusblack/adorius.black/blob/master/adorius.black.png)
+[![Watch the video](https://www.youtube.com/watch?v=_3ja2nXeDFk&feature=youtu.be)
