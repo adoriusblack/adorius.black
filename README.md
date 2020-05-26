@@ -6,4 +6,4 @@ Welcome to the Adorius BlackFun Acc Maker/Wiki.
 4.) Visit Project webpage https://adorius.black/
 
 Quick Look:
-[![Watch the video](https://www.youtube.com/watch?v=_3ja2nXeDFk&feature=youtu.be)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=_3ja2nXeDFk&feature=youtu.be)
