@@ -1,0 +1,265 @@
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-track {background: black;}
+::-webkit-scrollbar-thumb {background: radial-gradient(circle, rgba(7,27,175,1) 0%, rgba(35,25,96,1) 50%, rgba(0,0,0,1) 100%);}
+::-webkit-scrollbar-thumb:hover {background: radial-gradient(circle, rgba(0,30,255,1) 0%, rgba(35,25,96,1) 50%, rgba(0,0,0,1) 100%);}
+
+body{
+     		width: 100%;
+     		height: 100%;
+     		animation: background 20s infinite;
+}
+@keyframes background {
+  			0% {background-color: black;}
+  			25%{background-color:#001024;}
+  			50%{background-color:#050024;}
+  			75%{background-color:#160024;}
+  			100% {background-color:black;}
+}
+p{
+    		cursor: pointer;
+    		color: white;
+    		text-shadow: 5px 5px 5px black;
+		    font-size: 1vw;
+		    line-height: 1.2;
+}
+a{
+		    text-decoration: none;
+        color: #0035A7;
+        cursor: pointer;
+        text-shadow: 5px 5px 5px blue;
+}
+h2{
+  		  color: white;
+			  font-variant: small-caps;
+			  font-size: 2vw;
+			  text-shadow: 5px 5px 5px black;
+}
+h3{
+  			margin-top: 0;
+			  font-variant: small-caps;
+			  font-size: 1.5vw;
+			  color: red;
+			  text-shadow: 5px 5px 5px black;
+}
+#main{
+        	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(24,3,148,1) 50%, rgba(0,0,0,1) 100%);
+        	position:absolute;
+        	width: 86%;
+        	height: 90%;
+        	left: 7%;
+        	top: 7%;
+        	border-radius: 30px;
+}
+.logo{
+        	position:absolute;
+        	width: 30%;
+        	left: 35%;
+        	top: 0%;
+        	text-align: center;
+        	cursor: pointer;
+        	text-shadow: 5px 5px 5px blue;
+        	font-size: 3vw;
+   			  transition-property: transform;
+      		transition-duration: 2s;        
+}
+.logo:hover{
+      		transform: scale(1.1);
+}
+.menuchanger{
+        	position:absolute;
+        	left: 15%;
+        	top: 0%;
+        	text-align: center;
+        	color: #0035A7;
+        	cursor: pointer;
+        	text-shadow: 5px 5px 5px blue;
+   			  transition-property: transform;
+      		transition-duration: 2s;
+}
+.menuchanger:hover{           
+      		transform: scale(1.5);
+      		z-index: 1;     
+}
+#menu{
+      		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(24,3,148,1) 50%, rgba(0,0,0,1) 100%);
+      		position:absolute;
+      		max-height:70%;
+      		height: auto;
+      		width:28%;
+      		left:1%;
+      		top:15%;
+      		text-align: center;
+      		overflow: auto;
+      		border-radius: 20px;
+      		transition-property: transform;
+      		transition-duration: 3s;
+}
+#menu:hover{
+      		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,0,255,1) 50%, rgba(0,0,0,1) 100%);
+      		transform: scale(1.1);
+      		z-index: 1;
+}
+.button{
+    		background-color: black;
+    		padding: 20px 20px 20px 20px;
+    		margin: 10px;
+    		width: 60%;
+    		cursor: pointer;
+    		border-radius: 50px;
+    		border: none;
+    		font-size: 2vw;
+    		transition-property: all;
+    		transition-duration: 2s;
+}
+.button:hover{
+    		border-radius: 30px;
+    		transform: scale(1.2);
+    		transform: rotateX(360deg);
+}
+#content{
+      		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(24,3,148,1) 50%, rgba(0,0,0,1) 100%);
+      		position:absolute;
+      		height:auto;
+      		max-height: 70%;
+      		width:50%;
+      		left:30%;
+      		top:15%;
+      		overflow: auto;
+      		border-radius: 20px;
+      		transition-property: transform;
+      		transition-duration: 5s;
+}
+#content:hover{
+      		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,0,255,1) 50%, rgba(0,0,0,1) 100%);
+      		transform: scale(1.3);
+      		z-index: 1;
+}
+#donation{
+        	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(24,3,148,1) 50%, rgba(0,0,0,1) 100%);
+        	position:absolute;
+        	text-align: center;
+        	height:auto;
+        	max-height:70%;
+        	width:18%;
+        	right:1%;
+        	top:15%;
+        	overflow: auto;
+        	transition-property: transform;
+      		transition-duration: 2s;
+      		border-radius: 20px;
+}
+#donation:hover{
+        	transform: scale(1.1);
+        	z-index: 1; 
+}
+.footer{
+        	position:absolute;
+        	width: 30%;
+        	left: 35%;
+        	bottom: 2%;
+        	text-align: center;
+        	cursor: pointer;
+        	font-size: 2vw;
+        	text-shadow: 5px 5px 5px blue;
+   			transition-property: transform;
+      		transition-duration: 2s;  		
+}
+.footer:hover{           
+      		transform: scale(1.1);
+      		z-index: 1;     
+}
+.github{
+        	position:absolute;
+        	width: auto;
+        	right: 2%;
+        	bottom: 2%;
+        	text-align: right;
+        	color: #0035A7;
+        	font-size: 2vw;
+        	cursor: pointer;
+        	text-shadow: 5px 5px 5px blue;
+   			transition-property: transform;
+      		transition-duration: 2s;
+}
+.github:hover{           
+      		transform: scale(1.5);
+      		z-index: 1;     
+}
+.slideleft{
+       		position:absolute;
+       		height:auto;
+       		width:6%;
+       		left:3%;
+       		top:50%;
+       		text-align: left;
+          	transition-property: transform;
+      		transition-duration: 2s;  
+}
+.slideleft:hover{           
+      		transform: scale(1.5);
+}
+.slideright{
+       		position:absolute;
+       		height:auto;
+       		width:6%;
+       		right:3%;
+       		top:50%;
+       		text-align: right;
+       		transition-property: transform;
+	   		transition-duration: 2s;  
+}
+.slideright:hover{           
+      		transform: scale(1.5);
+}
+.overlay{
+  			position: fixed;
+  			top: 0;
+  			bottom: 0;
+  			left: 0;
+  			right: 0;
+  			background: rgba(31, 35, 33, 0.65);
+  			transition: opacity 1s;
+  			visibility: hidden;
+  			opacity: 0;
+  			overflow: auto;
+}
+.overlay:target{
+  			visibility: visible;
+  			opacity: 1;
+}
+.popup{
+  			margin: 10% 30%;
+  			padding: 20px;
+  			background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(24,3,148,1) 50%, rgba(0,0,0,1) 100%);
+  			border-radius: 30px;
+  			text-align:center;
+  			width: 40%;
+  			height: auto;
+  			max-height: 50%;
+  			overflow: auto;
+}
+
+.popup .close{
+  			position: absolute;
+  			top: 5px;
+  			right: 10px;
+  			font-size: 30px;
+  			font-weight: bold;
+  			color: white;
+}
+.popup .close:hover{
+  			color: blue;
+}
+.popup .popupcontent{
+			font-size: 1vw;
+  			color: red;
+  			text-shadow: 5px 5px 5px black;
+			font-weight: bold;
+}
+#showSource{
+  			opacity: 0;
+  			transition: opacity 1s; 
+}
+#showSource.show{
+  			opacity: 1;
+}
